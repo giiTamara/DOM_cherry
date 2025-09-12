@@ -9,3 +9,10 @@ tamanho_rodri = tamanho_rodri + 20
 
 }
 )
+
+function mudaCor(novaCor) {
+    var elemento = document.getElementById("para1");
+    elemento.style.backgroundColor = novaCor;
+    elemento.style.display = "inline";
+};
+
