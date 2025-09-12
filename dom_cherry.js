@@ -15,4 +15,3 @@ function mudaCor(novaCor) {
     elemento.style.backgroundColor = novaCor;
     elemento.style.display = "inline";
 };
-
