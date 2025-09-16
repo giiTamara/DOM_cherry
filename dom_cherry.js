@@ -28,3 +28,15 @@ foto_t = true
         foto_t = false;
     }
 });
+
+const rodri_circulov = document.getElementById('circulo')
+let rodri_tamanho = 1
+
+div.addEventListener('db1click', () => {
+    alert(rodri_tamanho)
+    rodri_circulo.style.borderRadius = `${rodri_tamanho} px`;
+    rodri_circulo.style.width = `${rodri_tamanho*2}px`;
+    rodri_circulo.style.height = `${rodri_tamanho*2}px`;
+    rodri_tamanho += 30;
+
+});
