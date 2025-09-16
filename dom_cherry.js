@@ -15,3 +15,6 @@ function mudaCor(novaCor) {
     elemento.style.backgroundColor = novaCor;
     elemento.style.display = "inline";
 };
+
+const imagem = document.getElementById('foto')
+let foto = false
