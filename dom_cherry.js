@@ -25,6 +25,6 @@ imagem.src = 'pokedex.png';
 foto_t = true
     }else{
         imagem.src = 'teste.jpg'
-        foto_t = false
+        foto_t = false;
     }
 });
