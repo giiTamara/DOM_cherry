@@ -40,3 +40,19 @@ div.addEventListener('db1click', () => {
     rodri_tamanho += 30;
 
 });
+
+form.addEventListener("submit", (event)=>{
+event.preventDefault();
+input=form.querySelector('input')
+if(parseInt(input.value)< 24 || isNaN(input.value)){
+    var p = Selection.querySelector('p')
+    p.innerText = "Professor é mais velho"
+    p.style.display = 'block'
+
+}else{
+    var p = section.querySelector('p')
+    p.innerHTML = '<h1> Olá Mundo </h1'
+    p.style.display = 'block'
+}
+
+});
