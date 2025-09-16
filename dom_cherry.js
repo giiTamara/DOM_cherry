@@ -17,4 +17,4 @@ function mudaCor(novaCor) {
 };
 
 const imagem = document.getElementById('foto')
-let foto = false
+let foto_t = false
