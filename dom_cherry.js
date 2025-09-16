@@ -18,3 +18,9 @@ function mudaCor(novaCor) {
 
 const imagem = document.getElementById('foto')
 let foto_t = false
+
+imagem.addEventListener('click',()=>{
+    if(foto_t === false){
+        
+    }
+})
